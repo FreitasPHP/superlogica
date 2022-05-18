@@ -14,7 +14,7 @@ abstract class Config
     const DB_PASS = '';
 
     /**
-    * [Constantes para identificacao das entidades do sistema]
+    * [Constantes para identificacao das tabelas do banco]
     */
     const ENTITY_USUARIO = 'usuario';
  

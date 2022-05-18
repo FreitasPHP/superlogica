@@ -34,7 +34,7 @@ final class UsuarioDao extends AbstractDao
             $p_sql->bindValue(2, $informacao['userName']);
             $p_sql->bindValue(3, $informacao['zipCode']);
             $p_sql->bindValue(4, $informacao['email']);
-            $p_sql->bindValue(5, $informacao['password']);
+            $p_sql->bindValue(5, sha1($informacao['password']));
             $p_sql->execute();
 
             return $this->getInstance()->lastInsertId();
