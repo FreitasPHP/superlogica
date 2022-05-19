@@ -9,7 +9,7 @@ abstract class Config
     * [Constantes para configuracao do Banco de Dados]
     */
     const DB_HOST = 'localhost';
-    const DB_NAME = 'superlogica';
+    const DB_NAME = 'exercicio1';
     const DB_USER = 'root';
     const DB_PASS = '';
 

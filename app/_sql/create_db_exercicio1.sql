@@ -1,7 +1,7 @@
-DROP DATABASE if EXISTS superlogica;
-CREATE DATABASE IF NOT EXISTS superlogica;
+DROP DATABASE if EXISTS exercicio1;
+CREATE DATABASE IF NOT EXISTS exercicio1;
 
-use superlogica;
+use exercicio1;
 
 CREATE TABLE usuario (
   id INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
