@@ -28,7 +28,7 @@ require_once 'app/Config.php';
                         <pre>Popule este array com 7 n&uacute;meros:</pre>
                         <code>
                             for($i = 1; $i < 8; $i++) {<br>
-                                &nbsp;&nbsp;&nbsp;$numeros[] = $i;<br>
+                                &nbsp;&nbsp;&nbsp;$numeros[] = rand(1, 100);<br>
                             }
                         </code>
                     </li>
